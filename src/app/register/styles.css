@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-title-130mcad {
+    color: #ededed;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-body-8cnajw {
+    background-color: #0c1b33;
+    height: 100vh;
+    background: url('/assets/matrix-bg-bw-a53c6ae5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content-km38nca {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side-023mca {
+    width: 50%;
+    align-items: flex-end;
+    display: flex;
+    padding-right: 5%;
+    flex-direction: column;
+}
+
+.right-side-cbs782c {
+    width: 50%;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: column;
+}
+
+.title-m3ic4n {
+    color: #ededed;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.sub-title-m3ic4n {
+    color: #ededed;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.form-139nc3 {
+    position: relative;
+    border-radius: 7px;
+    width: 60%;
+    background-color: rgba(142, 121, 62, 0.8);
+    background-color: #b78727;
+    background-color: #121212;
+    padding: 8%;
+    box-shadow: 1px 1px 8px 0 #dedede;
+}
+
+.form-139nc3 img {
+    position: absolute;
+    height: 20px;
+    bottom: 205px;
+    right: 60px;
+    cursor: pointer;
+}
+
+
+.form-139nc3 p {
+    font-size: 12px;
+    color: #EC5800;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.form-control-3mac82n {
+    outline: 0;
+    background: #dedede;
+    border-radius: 7px;
+    width: 100%;
+    border: 0;
+    margin: 10px 0;
+    color: #232323;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.form-control-3mac82n:focus {
+    box-shadow: 0 0 10px 0 #ededed;
+}
+
+.input-hint {
+    font-size: 12px;
+    color: #EC5800;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main-button-mac31cas {
+    outline: 0;
+    background: #b78727;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.main-button-mac31cas:hover,
+.main-button-mac31cas:active,
+.main-button-mac31cas:focus {
+    background: #b78727;
+    color: #dedede;
+    box-shadow: 0 0 10px 0 #b78727;
+    font-size: 16px;
+}
+
+.logo-8485a75 {
+    height: 80%;
+    width: 80%;
+}
+
+.message {
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+
+.form-139nc3 .message {
+    font-size: 12px;
+    color: #b78727;
+    text-align: right;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+.back-action-31ca22 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    display: flex;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.back-2fk29a {
+    margin-left: 8px;
+    text-align: center !important;
+    font-size: 15px;
+    color: #b78727;
+    text-decoration: none;
+}
+
+.form-139nc3 .back {
+    font-size: 15px;
+    color: #b78727;
+    text-decoration: none;
+}
+
+
+.pricing-card-da2fma {
+    min-height: 305px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.286);
+    display: flex;
+    flex-direction: column;
+
+    .card-header-ea21caw {
+        margin-top: 10px;
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+        border: 1px solid #ededed;
+        border-radius: 10px !important;
+
+        .card-btn-parent-1mqidn {
+            width: 100%;
+            height: 100%;
+            display: flex;
+
+            position: relative;
+
+            button {
+                width: calc(100%/3);
+                height: 100%;
+                border: 0;
+                border-radius: 7px;
+                background-color: transparent;
+                cursor: pointer;
+                z-index: 1;
+                color: gray;
+                font-size: 13px;
+                font-weight: 500;
+                transition: color .5s ease;
+
+                &:nth-of-type(1).active,
+                &:nth-of-type(1).active~div {
+                    left: 0px;
+                    color: #fff;
+                    font-size: 14px;
+                }
+
+                &:nth-of-type(2).active,
+                &:nth-of-type(2).active~div {
+                    left: calc(100%/3);
+                    color: #fff;
+                    font-size: 14px;
+                }
+
+                &:nth-of-type(3).active,
+                &:nth-of-type(3).active~div {
+                    left: calc(calc(100%/3)*2);
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+
+            div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: calc(100%/3);
+                height: 100%;
+                background: #b78727;
+                border-radius: 7px;
+                transition: left .5s ease;
+            }
+        }
+    }
+
+    .card-body-mzc29q {
+        display: flex;
+        width: 100%;
+        padding: 10px 10px;
+
+        >div {
+            width: 100%;
+            height: auto;
+            display: none;
+
+            .card-plans-cnq27as {
+                margin-top: 12px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .plan-tag-23an1cz {
+                    color: gray;
+                    font-weight: 500;
+                    font-size: 13px;
+                    letter-spacing: .5px;
+                }
+
+                .card-sub-plan-mcai2bc {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: end;
+                    margin-top: 10px;
+
+                    .plan-title-nc17ab {
+                        font-size: 24px;
+                        line-height: 24px;
+                        margin-right: 5px;
+                        color: #ededed;
+                    }
+
+                    .plan-duration-mc81bd {
+                        font-size: 13px;
+                        line-height: 20px;
+                        color: gray;
+                    }
+                }
+
+            }
+
+            .card-content-va32da {
+
+                >p {
+                    line-height: 20px;
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #dedede;
+                }
+
+                .card-lists-cn127s {
+                    margin-top: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+
+                    .card-list-3emao8n {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        column-gap: 10px;
+                        font-size: 14px;
+
+                        .check-mark-a3pzcm {
+                            /* position: unset; */
+                            width: 10%;
+                        }
+
+                        .benefits-ma8b2 {
+                            /* line-height: 20px; */
+                            font-size: 14px;
+                            color: #dedede;
+                        }
+                    }
+
+                }
+            }
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .left-content-83rnzx {
+        width: 60%;
+    }
+
+    .form-139nc3 {
+        width: 70%;
+
+        .pricing-card-da2fma {
+            width: 100%;
+            padding: 8%;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .left-content-83rnzx {
+            width: 80%;
+        }
+
+        .form-139nc3 {
+            width: 100%;
+
+            .pricing-card-da2fma {
+                width: 100%;
+                padding: 4%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .form-139nc3 {
+            .pricing-card-da2fma {
+                width: 100%;
+                padding: 8%;
+            }
+        }
+
+        .content-km38nca {
+            width: 100%;
+            height: auto;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+        .left-side-023mca {
+            width: 85%;
+            height: auto;
+            display: flex;
+            margin-right: 0px !important;
+            padding-right: 0px !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-content-83rnzx {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right-side-cbs782c {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            margin-left: 0px;
+            margin-top: 10%;
+        }
+
+        .form-139nc3 {
+            .pricing-card-da2fma {
+                width: 100%;
+                padding: 2% 0%;
+            }
+        }
+
+
+        .logo-8485a75 {
+            height: 60%;
+            width: 60%;
+        }
+
+        .content-km38nca {
+            width: 100%;
+            height: auto;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            align-items: center;
+            display: flex;
+            padding-left: 0px !important;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .logo-image-nac93c {
+            display: flex;
+            justify-content: center;
+        }
+
+        .title-m3ic4n {
+            color: #ededed;
+            font-weight: 500;
+            font-size: 23px;
+        }
+
+        .sub-title-m3ic4n {
+            color: #ededed;
+            font-weight: 400;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-title-2kncasz {
+    color: #ededed;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-body-pa23cs {
+    background-color: #0c1b33;
+    height: 100vh;
+    background: url('/assets/matrix-bg-bw-a53c6ae5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.fp-page-cam21as {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-cam24uu {
+    position: relative;
+    filter: drop-shadow(0 0 2px #000000);
+    border-radius: 7px;
+    width: 380px;
+    background-color: rgba(142, 121, 62, 0.8);
+    background-color: #b78727;
+    background-color: #121212;
+    padding: 40px;
+    box-shadow: 1px 1px 8px 0 #dedede;
+}
+
+.input-hint {
+    font-size: 12px;
+    color: #EC5800;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.form-control-ba83as8 {
+    outline: 0;
+    background: #dedede;
+    border-radius: 7px;
+    width: 100%;
+    border: 0;
+    margin: 10px 0;
+    color: #232323;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.form-control-ba83as8:focus {
+    box-shadow: 0 0 10px 0 #ededed;
+}
+
+.main-button-o3n2dc {
+    outline: 0;
+    background: #b78727;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.main-button-o3n2dc:hover,
+.main-button-o3n2dc:active,
+.main-button-o3n2dc:focus {
+    background: #b78727;
+    color: #dedede;
+    box-shadow: 0 0 10px 0 #b78727;
+}
+
+.back-action-k823nc {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center !important;
+    display: flex;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.back-msji783 {
+    margin-left: 8px;
+    text-align: center !important;
+    font-size: 15px;
+    color: #b78727;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    .form-cam24uu {
+        width: 90%;
+    }
+}
